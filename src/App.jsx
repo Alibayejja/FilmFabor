@@ -1,10 +1,17 @@
 import './App.css'
+import Home from './pages/Home'
+import { BrowserRouter as Router, Route, Routes } from 'react-router'
 
 function App() {
 
   return (
     <>
-      <h1 className='text-red-100 font-bold'>Amg</h1>
+      <Router>
+        <Routes>
+          <Route path='/' element={<Home />}></Route>
+        </Routes>
+      </Router>
+      
     </>
   )
 }
