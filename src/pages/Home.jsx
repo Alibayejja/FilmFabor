@@ -3,13 +3,14 @@ import Navbar from '../components/Navbar'
 import star from '../../public/Star.png'
 import plus from '../../public/plus.png'
 import play from '../../public/play.png'
+import Cards from '../components/Cards'
 
 
 export default function Home() {
   return (
     <>
       <Navbar />
-      <div className='main flex flex-row'>
+      <div className='main flex flex-col'>
         <div className='Hero flex bg-[url(/public/HeroBg.jpeg)] w-full'>
             <div className='Left-Content-Container flex flex-col  px-12 py-24 h-screen bg-black/80 gap-8 w-160'>
                 <div className='Header flex flex-col gap-2 w-120 '>
@@ -66,6 +67,33 @@ export default function Home() {
 
             </div>
         </div>
+        <div className='flex flex-col bg-black gap-12 px-12 py-12 items-center'>
+            <h1 className='text-white text-4xl font-medium decoration-red-500 underline'>Trending Now</h1>
+            <div className='movies-grid grid grid-cols-4 gap-4'>
+            <Cards />
+            <Cards />
+            <Cards />
+            <Cards />
+            <Cards />
+            <Cards />
+            <Cards />
+            <Cards />
+            <Cards />
+            <Cards />
+            <Cards />
+            <Cards />
+            <Cards />
+            <Cards />
+            <Cards />
+            <Cards />
+            <Cards />
+            <Cards />
+            <Cards />
+            <Cards />
+            
+        </div>
+        </div>
+        
       </div>
     </>
   )
