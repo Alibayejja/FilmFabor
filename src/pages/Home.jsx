@@ -9,7 +9,6 @@ import Cards from '../components/Cards'
 export default function Home() {
   return (
     <>
-      <Navbar />
       <div className='main flex flex-col'>
         <div className='Hero flex bg-[url(/public/HeroBg.jpeg)] w-full'>
             <div className='Left-Content-Container flex flex-col  px-12 py-24 h-screen bg-black/80 gap-8 w-160'>
