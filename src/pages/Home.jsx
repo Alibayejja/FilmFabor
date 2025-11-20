@@ -52,7 +52,7 @@ export default function Home() {
                     <div className='bg-white rounded-2xl px-4 py-2 w-fit font-medium'>Adventure</div>
                 </div>
                 <div className='flex gap-2'>
-                    <button className='flex bg-red-500 px-4 py-2 font-medium text-white items-center gap-2'>
+                    <button className='flex bg-red-500 px-4 py-2 font-medium text-white items-center gap-2 border'>
                         <img src={play} alt="play icon" className="w-4 h-4" />
                         Watch Now
                     </button>
