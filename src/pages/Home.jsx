@@ -1,15 +1,29 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Navbar from '../components/Navbar'
 import star from '../../public/Star.png'
 import plus from '../../public/plus.png'
 import play from '../../public/play.png'
 import Cards from '../components/Cards'
+import Poppup from '../components/Poppup'
 
 
 export default function Home() {
+    const [showPoppup, setShowPoppup] = useState(false)
+
+    useEffect(() => {
+        const timer = setTimeout(() => {
+            setShowPoppup(true);
+            return () => clearTimeout(timer)
+        }, 5000);
+    }, [])
+
+    const skipPoppup = () => {
+        setShowPoppup(false)
+    }
   return (
     <>
-      <div className='main flex flex-col'>
+      <div className='relative w-full h-full'>
+             <div className='main flex flex-col'>
         <div className='Hero flex bg-[url(/public/HeroBg.jpeg)] w-full'>
             <div className='Left-Content-Container flex flex-col  px-12 py-24 h-screen bg-black/80 gap-8 w-160'>
                 <div className='Header flex flex-col gap-2 w-120 '>
@@ -93,6 +107,12 @@ export default function Home() {
         </div>
         </div>
         
+      </div>
+    {showPoppup && (
+        <div className='absolute inset-0 flex py-20 justify-center bg-black/50'>
+            <Poppup skipPoppup={skipPoppup} />
+        </div>
+    )}
       </div>
     </>
   )
