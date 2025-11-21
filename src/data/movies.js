@@ -19,7 +19,7 @@ export const movies = [
     title: "Deadpool & Wolverine",
     year: 2024,
     image: "/images/2.jpeg",
-    cover: "/images/2-cover.jpeg",
+    cover: "/images/22.jpeg",
     description:
       "Deadpool joins forces with Wolverine in a chaotic multiverse mission to save everything they care about.",
     country: "USA",
@@ -34,7 +34,7 @@ export const movies = [
     title: "Dune: Part Two",
     year: 2024,
     image: "/images/3.jpeg",
-    cover: "/images/3-cover.jpeg",
+    cover: "/images/33.jpeg",
     description:
       "Paul Atreides unites with the Fremen and prepares a war against the Emperor and House Harkonnen.",
     country: "USA",
@@ -49,7 +49,7 @@ export const movies = [
     title: "Avatar: The Way of Water",
     year: 2022,
     image: "/images/4.jpeg",
-    cover: "/images/4-cover.jpeg",
+    cover: "/images/44.jpeg",
     description:
       "Jake Sully and Neytiri protect their family against a new human threat exploring Pandora's oceans.",
     country: "USA",
@@ -64,7 +64,7 @@ export const movies = [
     title: "Interstellar",
     year: 2014,
     image: "/images/5.jpeg",
-    cover: "/images/5-cover.jpeg",
+    cover: "/images/55.jpeg",
     description:
       "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
     country: "USA",

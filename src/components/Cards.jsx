@@ -6,16 +6,16 @@ export default function Cards({ title, year, image, id }) {
   const navigate = useNavigate();
 
   const handleClick = () => {
-    navigate(`/details/${id}`); // No need for state anymore
+    navigate(`/details/${id}`);
   };
 
   return (
     <div className='flex flex-col h-fit rounded-lg'>
-      {/* Image wrapper */}
-      <div className='relative overflow-hidden rounded-lg group h-140'>
+      {/* Image wrapper with fixed aspect ratio */}
+      <div className='relative overflow-hidden rounded-lg group aspect-[2/3]'>
         {/* Image */}
         <img 
-          className='transform transition-transform duration-300 ease-in-out group-hover:scale-110 w-full'
+          className='absolute inset-0 w-full h-full object-cover transform transition-transform duration-300 ease-in-out group-hover:scale-110'
           src={image} 
           alt={title}
         />
