@@ -3,7 +3,8 @@ export const movies = [
     id: 1,
     title: "The Fantastic Four",
     year: 2025,
-    image: "public/images/img 1.jpeg",
+    image: "/images/1.jpeg",
+    cover: "/images/111.jpeg",
     description:
       "Forced to balance their roles as heroes with their family bond, the Fantastic Four must defend Earth from a cosmic threat known as Galactus.",
     country: "United States of America",
@@ -17,7 +18,8 @@ export const movies = [
     id: 2,
     title: "Deadpool & Wolverine",
     year: 2024,
-    image: "public/images/img 2.jpeg",
+    image: "/images/2.jpeg",
+    cover: "/images/2-cover.jpeg",
     description:
       "Deadpool joins forces with Wolverine in a chaotic multiverse mission to save everything they care about.",
     country: "USA",
@@ -31,7 +33,8 @@ export const movies = [
     id: 3,
     title: "Dune: Part Two",
     year: 2024,
-    image: "public/images/img 3.jpeg",
+    image: "/images/3.jpeg",
+    cover: "/images/3-cover.jpeg",
     description:
       "Paul Atreides unites with the Fremen and prepares a war against the Emperor and House Harkonnen.",
     country: "USA",
@@ -45,7 +48,8 @@ export const movies = [
     id: 4,
     title: "Avatar: The Way of Water",
     year: 2022,
-    image: "public/images/img 4.jpeg",
+    image: "/images/4.jpeg",
+    cover: "/images/4-cover.jpeg",
     description:
       "Jake Sully and Neytiri protect their family against a new human threat exploring Pandora's oceans.",
     country: "USA",
@@ -59,7 +63,8 @@ export const movies = [
     id: 5,
     title: "Interstellar",
     year: 2014,
-    image: "public/images/img 5.jpeg",
+    image: "/images/5.jpeg",
+    cover: "/images/5-cover.jpeg",
     description:
       "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
     country: "USA",
@@ -73,7 +78,8 @@ export const movies = [
     id: 6,
     title: "Inception",
     year: 2010,
-    image: "public/images/img 6.jpeg",
+    image: "/images/6.jpeg",
+    cover: "/images/6-cover.jpeg",
     description:
       "A thief who enters people's dreams must perform the most difficult mission: planting an idea.",
     country: "USA",
@@ -87,7 +93,8 @@ export const movies = [
     id: 7,
     title: "Oppenheimer",
     year: 2023,
-    image: "public/images/img 7.jpeg",
+    image: "/images/7.jpeg",
+    cover: "/images/7-cover.jpeg",
     description:
       "The story of J. Robert Oppenheimer, the father of the atomic bomb, and the moral dilemmas he faced.",
     country: "USA",
@@ -101,7 +108,8 @@ export const movies = [
     id: 8,
     title: "John Wick: Chapter 4",
     year: 2023,
-    image: "public/images/img 8.jpeg",
+    image: "/images/8.jpeg",
+    cover: "/images/8-cover.jpeg",
     description:
       "John Wick faces his most powerful enemies across the globe as he continues his fight for freedom.",
     country: "USA",
@@ -115,7 +123,8 @@ export const movies = [
     id: 9,
     title: "Spider-Man: No Way Home",
     year: 2021,
-    image: "public/images/img 9.jpeg",
+    image: "/images/9.jpeg",
+    cover: "/images/9-cover.jpeg",
     description:
       "Peter Parker seeks help from Doctor Strange to make people forget his identity, but things go wrong.",
     country: "USA",
@@ -129,7 +138,8 @@ export const movies = [
     id: 10,
     title: "The Batman",
     year: 2022,
-    image: "public/images/img 10.jpeg",
+    image: "/images/10.jpeg",
+    cover: "/images/10-cover.jpeg",
     description:
       "Batman investigates a series of murders while facing the Riddler in a dark and gritty Gotham.",
     country: "USA",
@@ -143,7 +153,8 @@ export const movies = [
     id: 11,
     title: "Joker",
     year: 2019,
-    image: "public/images/img 11.jpeg",
+    image: "/images/11.jpeg",
+    cover: "/images/11-cover.jpeg",
     description:
       "Arthur Fleck descends into madness and becomes the criminal mastermind known as the Joker.",
     country: "USA",
@@ -157,7 +168,8 @@ export const movies = [
     id: 12,
     title: "Guardians of the Galaxy Vol. 3",
     year: 2023,
-    image: "public/images/img 12.jpeg",
+    image: "/images/12.jpeg",
+    cover: "/images/12-cover.jpeg",
     description:
       "The Guardians face a final mission to save Rocket from his mysterious past.",
     country: "USA",
@@ -171,7 +183,8 @@ export const movies = [
     id: 13,
     title: "Mission Impossible: Dead Reckoning",
     year: 2023,
-    image: "public/images/img 13.jpeg",
+    image: "/images/13.jpeg",
+    cover: "/images/13-cover.jpeg",
     description:
       "Ethan Hunt faces a new threat: a mysterious AI capable of global chaos.",
     country: "USA",
@@ -185,9 +198,10 @@ export const movies = [
     id: 14,
     title: "Black Panther",
     year: 2018,
-    image: "public/images/img 14.jpeg",
+    image: "/images/14.jpeg",
+    cover: "/images/14-cover.jpeg",
     description:
-      "T’Challa returns to Wakanda as king but faces an enemy from within his own nation.",
+      "T'Challa returns to Wakanda as king but faces an enemy from within his own nation.",
     country: "USA",
     genre: "Action, Fantasy",
     releaseDate: "2018-02-16",
@@ -199,7 +213,8 @@ export const movies = [
     id: 15,
     title: "The Matrix Resurrections",
     year: 2021,
-    image: "public/images/img 15.jpeg",
+    image: "/images/15.jpeg",
+    cover: "/images/15-cover.jpeg",
     description:
       "Neo returns to a new version of the Matrix and faces his past and destiny once again.",
     country: "USA",
@@ -213,7 +228,8 @@ export const movies = [
     id: 16,
     title: "Kung Fu Panda 4",
     year: 2024,
-    image: "public/images/img 16.jpeg",
+    image: "/images/16.jpeg",
+    cover: "/images/16-cover.jpeg",
     description:
       "Po embarks on a new adventure to discover the next Dragon Warrior while facing a new villain.",
     country: "USA",
@@ -227,7 +243,8 @@ export const movies = [
     id: 17,
     title: "Venom: Let There Be Carnage",
     year: 2021,
-    image: "public/images/img 17.jpeg",
+    image: "/images/17.jpeg",
+    cover: "/images/17-cover.jpeg",
     description:
       "Eddie Brock and Venom face a dangerous new symbiote known as Carnage.",
     country: "USA",
@@ -241,7 +258,8 @@ export const movies = [
     id: 18,
     title: "Doctor Strange in the Multiverse of Madness",
     year: 2022,
-    image: "public/images/img 18.jpeg",
+    image: "/images/18.jpeg",
+    cover: "/images/18-cover.jpeg",
     description:
       "Doctor Strange travels across the multiverse facing alternate realities and Wanda's dark powers.",
     country: "USA",
@@ -255,7 +273,8 @@ export const movies = [
     id: 19,
     title: "Fast X",
     year: 2023,
-    image: "public/images/img 19.jpeg",
+    image: "/images/19.jpeg",
+    cover: "/images/19-cover.jpeg",
     description:
       "Dom Toretto and his family face a vengeful foe connected to their troubled past.",
     country: "USA",
@@ -269,7 +288,8 @@ export const movies = [
     id: 20,
     title: "The Marvels",
     year: 2023,
-    image: "https://image.tmdb.org/t/p/w500/Arhp5xY4P0m0mGxC77x4ssQqHgM.jpg",
+    image: "/images/20.jpeg",
+    cover: "/images/20-cover.jpeg",
     description:
       "Captain Marvel, Ms. Marvel, and Monica Rambeau team up to save the universe from a new threat.",
     country: "USA",
