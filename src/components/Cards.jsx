@@ -1,7 +1,7 @@
-import React from 'react'
-import PlayIcon from '../../public/play.png'
+import React from 'react';
+import PlayIcon from '../../public/play.png';
 
-export default function Cards() {
+export default function Cards({ title, image, year }) {
   return (
     <div className='flex flex-col h-fit rounded-lg'>
       {/* Image wrapper */}
@@ -9,8 +9,8 @@ export default function Cards() {
         {/* Image */}
         <img 
           className='transform transition-transform duration-300 ease-in-out group-hover:scale-110 w-full'
-          src="/images/1.jpeg" 
-          alt=""
+          src={image} 
+          alt={title}
         />
 
         {/* Black overlay */}
@@ -24,8 +24,8 @@ export default function Cards() {
         />
       </div>
 
-      <h1 className='text-white font-bold mt-2'>Frankenstein</h1>
-      <p className='text-white/80 font-medium'>2025</p>
+      <h1 className='text-white font-bold mt-2'>{title}</h1>
+      <p className='text-white/80 font-medium'>{year}</p>
     </div>
-  )
+  );
 }
